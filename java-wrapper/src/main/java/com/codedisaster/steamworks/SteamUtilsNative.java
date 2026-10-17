@@ -90,7 +90,7 @@ final class SteamUtilsNative {
 	*/
 
 	static native boolean isSteamRunningOnSteamDeck(); /*
-		return SteamUtils()->IsSteamRunningOnSteamDeck();
+		return SteamUtils()->IsRunningOnSteamHardware() == k_ESteamHardwareTypeSteamDeck;
 	*/
 
 	static native boolean showFloatingGamepadTextInput(int keyboardMode,
