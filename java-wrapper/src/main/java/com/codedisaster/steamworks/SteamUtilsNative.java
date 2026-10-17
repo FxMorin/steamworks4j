@@ -89,8 +89,8 @@ final class SteamUtilsNative {
 		return SteamUtils()->IsSteamChinaLauncher();
 	*/
 
-	static native boolean isSteamRunningOnSteamDeck(); /*
-		return SteamUtils()->IsRunningOnSteamHardware() == k_ESteamHardwareTypeSteamDeck;
+	static native int isRunningOnSteamHardware(); /*
+		return SteamUtils()->IsRunningOnSteamHardware();
 	*/
 
 	static native boolean showFloatingGamepadTextInput(int keyboardMode,
